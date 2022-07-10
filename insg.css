@@ -304,3 +304,21 @@ left: -20px;
 #back a:hover{
 	color: yellow;
 }
+#acoes {
+	display: flex;
+	justify-content: center;
+}
+#acoes h1 {
+	
+	color: #0000CD;
+	font-size: 3rem;
+	text-shadow: 2px 2px 4px #FFD700;
+}
+#foto_acoes {
+	display: flex;
+    justify-content: space-around;
+}
+#foto_acoes img {
+	width: 18rem;
+	height: 11rem;
+}
