@@ -305,14 +305,20 @@ left: -20px;
 	color: yellow;
 }
 #acoes {
-	display: flex;
+	display: block;
 	justify-content: center;
 }
 #acoes h1 {
 	
 	color: #0000CD;
-	font-size: 3rem;
+	font-size: 4rem;
 	text-shadow: 2px 2px 4px #FFD700;
+}
+#acoes h2 {
+	color: #0000CD;
+	font-size: 2.8rem;
+	position: relative;
+	bottom: -50px;
 }
 #foto_acoes {
 	display: flex;
@@ -322,6 +328,8 @@ left: -20px;
 	width: 18rem;
 	height: 11rem;
 	box-shadow: 2px 2px 2px 3px blue;
+	position: relative;
+	bottom: -80px;
 }
 #foto_acoes1 {
 	display: flex;
@@ -332,6 +340,6 @@ left: -20px;
 	width: 18rem;
 	height: 11rem;
 	position: relative;
-	bottom: -45px;
+	bottom: -150px;
 	box-shadow: 2px 2px 2px 3px blue;
 }
