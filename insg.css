@@ -321,4 +321,17 @@ left: -20px;
 #foto_acoes img {
 	width: 18rem;
 	height: 11rem;
+	box-shadow: 2px 2px 2px 3px blue;
+}
+#foto_acoes1 {
+	display: flex;
+	justify-content:space-around;
+
+}
+#foto_acoes1 img {
+	width: 18rem;
+	height: 11rem;
+	position: relative;
+	bottom: -45px;
+	box-shadow: 2px 2px 2px 3px blue;
 }
