@@ -334,6 +334,16 @@ left: -20px;
 #back a:hover{
 	color: yellow;
 }
+#back1 {
+	display: flex;
+	justify-content: right;
+	position: relative;
+	left: -20px;
+	bottom: -10px;
+}
+#back1 a {
+	text-decoration: none;
+}
 #acoes {
 	display: block;
 	justify-content: center;
