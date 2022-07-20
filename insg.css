@@ -201,6 +201,36 @@ h1{
 	position: relative;
 	bottom: 10px;
 }
+figure {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	bottom: -150px;
+}
+.curi_foto1 {
+position: relative;
+width: 19rem;
+height: 10rem;
+}
+.curi_foto1 img {
+	width: 100%;
+	height: 100%;
+}
+.curi_foto1 a {
+	position: absolute;
+	bottom: -60px;
+	left: 50px;
+	color: #0000CD;
+}
+.curi_foto1 a:hover {
+	color:  #01013b;
+	text-shadow: #FFD700;
+}
+#curiosidade a {
+text-decoration: none;
+
+
+}
  h2{
 	color: white;
 	text-align: center;
@@ -349,3 +379,4 @@ left: -20px;
 #foto_doacao img {
 	
 }
+
